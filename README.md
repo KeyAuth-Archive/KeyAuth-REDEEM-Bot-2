@@ -28,4 +28,4 @@ To send you panel run the /redeempanel command!
 ```
 ## Support
 
-If you have a legitimate error please add me on discord [api#0001](https://discord.com/users/755155481458114630)
+If you have a legitimate error please add me on discord [api#0001](https://discord.com/users/755155481458114630)!
