@@ -51,7 +51,7 @@ class Redeem(commands.Cog):
             pw = self.children[1].value
             key = self.children[2].value
             req = requests.get(f"https://keyauth.win/api/seller/?sellerkey={sellerkey}&type=activate&user={un}&key={key}&pass={pw}&format=text")
-            if req.json()["success"] == True:
+            if req.json()["success"]:
                 await interaction.response.defer()
                 embed=discord.Embed(title=f"License Successfully Activated", color=embedcolor, timestamp=times)
                 embed.set_footer(text=f"Command run by: {interaction.user}", icon_url=interaction.user.avatar)
