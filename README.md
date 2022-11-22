@@ -1,7 +1,7 @@
 
-# KeyAuth Redeem Bot via Modals
+# KeyAuth Redeem Bot
 
-This is a discord bot that utilizes requests to register a new user via there license
+This is a **discord** bot that uses KeyAuth api to activate a users license
 
 
 
