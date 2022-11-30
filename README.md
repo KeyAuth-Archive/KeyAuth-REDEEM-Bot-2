@@ -13,7 +13,7 @@ This is a **discord** bot that uses KeyAuth api to activate a users license
 ## Commands
 
 - `/setseller` Set your sellerkey
-- `/redeempanel` Sends redeem pane
+- `/redeempanel` Sends redeem panel
 - `/logs` Create or set a logs channel
 
 
