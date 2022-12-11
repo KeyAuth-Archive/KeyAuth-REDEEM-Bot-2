@@ -62,7 +62,7 @@ class Redeem(commands.Cog):
                 roles = interaction.user.guild.get_role(role)
                 await interaction.user.add_roles(roles)
             else:
-                embed=discord.Embed(title="Error with api", description=f"Note: `Your seller key is most likely not set. Please tell the owner.`", color=embedcolor, timestamp=self.times)
+                embed=discord.Embed(title="Error with api", description=f"Note: `Your seller key is most likely not set. Please tell the owner.`", color=embedcolor, timestamp=times)
                 embed.set_footer(text=f"Command run by: {interaction.user}", icon_url=interaction.user.avatar)
                 await interaction.response.send_message(embed=embed, ephemeral=True)
             req.close()
